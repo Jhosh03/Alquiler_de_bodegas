@@ -1,0 +1,23 @@
+﻿* {
+    transition-duration: 500ms;
+}
+
+.back-galeria {
+    background-image: linear-gradient( to top, rgba(23, 30, 51, 0.473), rgba(26, 34, 41, 0.904) ), url("../content/images/headers/2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 70vh;
+}
+
+.gradient-card {
+    filter: brightness(50%);
+}
+
+    .gradient-card:hover {
+        filter: brightness(100%);
+    }
